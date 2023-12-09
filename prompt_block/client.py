@@ -6,7 +6,7 @@ class Client:
         self.key = key
         self.base_url = "https://prompt-block.onrender.com/api/prompt-by-name"
 
-    def get_content(self, name):
+    def get_prompt(self, name):
         url = f"{self.base_url}?name={name}&key={self.key}"
         headers = {"Authorization": f"Bearer {self.key}"}
         response = requests.get(url, headers=headers)
