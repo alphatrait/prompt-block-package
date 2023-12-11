@@ -1,4 +1,4 @@
-# prompt_block/client.py
+# promptblock/client.py
 import requests
 
 class Client:
