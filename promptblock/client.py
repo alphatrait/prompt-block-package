@@ -22,7 +22,7 @@ class Client:
         headers = {"Authorization": f"Bearer {self.key}"}
         response = requests.get(url, headers=headers)
         if response.status_code == 200:
-            return str(response.json())
+            return response.json()
         else:
             raise Exception(f"Failed to get content: {response.status_code}")
         

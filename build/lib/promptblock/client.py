@@ -25,4 +25,5 @@ class Client:
             return response.json()
         else:
             raise Exception(f"Failed to get content: {response.status_code}")
-
+        
+        

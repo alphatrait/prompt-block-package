@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='promptblock',
-    version='0.5',
+    version='0.6',
     description='Client for Prompt Block. Build your prompt library with ease.',
     author='Contentify',
     author_email='hi@contentify.app',
